@@ -14,16 +14,59 @@
 # else:
 #     print("x is equal to 0")
 
-score=int(input("enter your marks"))
-if score>=90:
-    print("a")
-elif score >=80:
-    print("b")
-elif score>=70:
-    print("c")
-elif score>=60:
-    print("d")
-elif score>=35:
-    print("fair")
-else:
-    print("fail")
+# score=int(input("enter your marks"))
+# if score>=90:
+#     print("a")
+# elif score >=80:
+#     print("b")
+# elif score>=70:
+#     print("c")
+# elif score>=60:
+#     print("d")
+# elif score>=35:
+#     print("fair")
+# else:
+#     print("fail")
+
+
+# num=int(input ("enter you number"))
+# if num%2==0:
+#     print("even number")
+# else:
+#     print("odd number")
+
+
+def main():
+    num=int(input("enter your num:"))
+    if even(num):
+        print("even number")
+    else:
+        print("odd number");
+
+
+
+# def even(num):
+#     if num%2==0:
+#         return True
+#     else:
+#         return False;
+
+        
+        
+# main()
+
+#pythonic expression
+
+# def even(n):
+#     return True if n%2==0 else False;
+
+# main()
+
+#3 methon
+
+def even(n):
+    return n%2==0;
+
+main();
+
+
