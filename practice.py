@@ -73,39 +73,56 @@ print("first name is",first)'''
 # first,second=name.split();
 # print("hello world",first )
 
-def main():
-    num1=float(input("enter num : "))
-    opt=input("+,-,*,/")
-    num2=float(input("enter num : "))
+# def main():
+#     num1=float(input("enter num : "))
+#     opt=input("+,-,*,/")
+#     num2=float(input("enter num : "))
 
-    if opt=="+":
-        print("result:",add(num1,num2))
-    elif opt=="-":
-        print("result:",sub(num1,num2))
-    elif opt=="*":
-             print("result:",multi(num1,num2))
-    elif opt=="/":
-         print("result:",div(num1,num2))
-    else:
-         print("invaild opt");
+#     if opt=="+":
+#         print("result:",add(num1,num2))
+#     elif opt=="-":
+#         print("result:",sub(num1,num2))
+#     elif opt=="*":
+#              print("result:",multi(num1,num2))
+#     elif opt=="/":
+#          print("result:",div(num1,num2))
+#     else:
+#          print("invaild opt");
 
 
-def add(a,b):
-     return round(a+b);
+# def add(a,b):
+#      return round(a+b);
 
-def sub (a,b):
-     return round(a-b,1);
+# def sub (a,b):
+#      return round(a-b,1);
 
-def multi(a,b):
-     return round(a*b);
+# def multi(a,b):
+#      return round(a*b);
 
-def div(a,b):
-     if b!=0:
-          return round(a/b,1);
-     else:
-          print("cannot be divide by zero");
+# def div(a,b):
+#      if b!=0:
+#           return round(a/b,1);
+#      else:
+#           print("cannot be divide by zero");
 
-main()
+# main()
 
+# Write a program that takes marks from the user and prints the grade:
+# - 90 or above → A
+# - 75–89 → B
+# - 60–74 → C
+# - 35–59 → D
+# - Below 35 → Fail
      
-     
+marks=int(input("enter your marks"))
+
+if marks >=90:
+    print("A")
+elif 75<=marks<90:
+    print("B")
+elif 60<=marks<75:
+    print("C")
+elif 35<=marks<60:
+    print("D")
+else:
+    print("fail")
