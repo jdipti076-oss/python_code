@@ -1,0 +1,111 @@
+'''print("hello world")
+name=input("What's your name? ").strip().title()
+first,second=name.split()
+print(f"hello,{name}")
+print("first name is",first)'''
+
+# a=int(input("enter the first number"))
+# b=int(input("enter the second number"))
+# print(a+b)
+
+# a=float(input("enter no1: "))
+# b=float(input("enter no2: "))
+# c=a/b
+# print(f"{c:.2f}")
+
+# def main():
+#     name=input("what your name?").strip().title()
+#     greet(name);
+
+# def greet(to="world"):
+#     print(f"hello,{to} ");
+
+# main();
+
+# name=input("what's your name").capitalize().title().strip()
+# print(f"hello world {name} ")
+
+
+# num1=float(input("enter no1 :"));
+# num2=float(input("enter no2 :"));
+# z=num1/num2;
+# print(f"{z:.2f}")
+
+
+
+# def main():
+#     num1=float(input("enter num1"))
+#     opt=input("enter any opt + , -,*, /")
+#     num2=float(input("enter num2"))
+    
+#     if opt=="+":
+#         print("result :", add(num1,num2))
+
+#     elif opt=="-":
+#             print("result :", sub(num1,num2))
+
+#     elif opt=="*":
+#             print("result :", multi(num1,num2))
+
+#     elif opt== "/":
+#             print("result :" ,divid(num1,num2))
+
+#     else:
+#           print("not a valid opt");
+
+# def add(a,b):
+#     return a+b; 
+
+# def sub(a,b):
+#       return a-b;
+# def multi(a,b):
+#       return a*b;
+
+# def divid(a,b):
+#       if a!=0:
+#             return a/b;
+#       else:
+#             print("cannot divide by zero");
+
+# main();
+
+# name=input("what is your name?").strip().title().capitalize();
+# first,second=name.split();
+# print("hello world",first )
+
+def main():
+    num1=float(input("enter num : "))
+    opt=input("+,-,*,/")
+    num2=float(input("enter num : "))
+
+    if opt=="+":
+        print("result:",add(num1,num2))
+    elif opt=="-":
+        print("result:",sub(num1,num2))
+    elif opt=="*":
+             print("result:",multi(num1,num2))
+    elif opt=="/":
+         print("result:",div(num1,num2))
+    else:
+         print("invaild opt");
+
+
+def add(a,b):
+     return round(a+b);
+
+def sub (a,b):
+     return round(a-b,1);
+
+def multi(a,b):
+     return round(a*b);
+
+def div(a,b):
+     if b!=0:
+          return round(a/b,1);
+     else:
+          print("cannot be divide by zero");
+
+main()
+
+     
+     
