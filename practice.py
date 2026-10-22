@@ -114,15 +114,31 @@ print("first name is",first)'''
 # - 35–59 → D
 # - Below 35 → Fail
      
-marks=int(input("enter your marks"))
+# marks=int(input("enter your marks"))
 
-if marks >=90:
-    print("A")
-elif 75<=marks<90:
-    print("B")
-elif 60<=marks<75:
-    print("C")
-elif 35<=marks<60:
-    print("D")
+# if marks >=90:
+#     print("A")
+# elif 75<=marks<90:
+#     print("B")
+# elif 60<=marks<75:
+#     print("C")
+# elif 35<=marks<60:
+#     print("D")
+# else:
+#     print("fail")
+# Write a program that takes an integer and checks:
+# - If it is divisible by both 3 and 5, print "FizzBuzz".
+# - If it is divisible only by 3, print "Fizz".
+# - If it is divisible only by 5, print "Buzz".
+# - Otherwise, print "Not divisible by 3 or 5".
+# Requirement: Use %, and, and if/elif/else.
+
+num=int(input("enter no :"))
+if num%3==0 and num%5==0:
+    print("fizzbuzz")
+elif num%3==0:
+    print("fizz")
+elif num%5==0:
+    print("buzz")
 else:
-    print("fail")
+    print("not divisible by 3 or 5 ")
