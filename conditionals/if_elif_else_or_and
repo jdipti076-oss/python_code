@@ -1,6 +1,6 @@
 # if-elif-else
-x=int(input("enter x :"))
-y=int(input("enter y:"))
+# x=int(input("enter x :"))
+# y=int(input("enter y:"))
 
 # if x<y:
 #     print("x is less then y")
@@ -9,7 +9,21 @@ y=int(input("enter y:"))
 # else:
 #     print("both are equale")
 
-if x<y or x>y :
-    print("x is not equal to 0")
+# if x<y or x>y :
+#     print("x is not equal to 0")
+# else:
+#     print("x is equal to 0")
+
+score=int(input("enter your marks"))
+if score>=90:
+    print("a")
+elif score >=80:
+    print("b")
+elif score>=70:
+    print("c")
+elif score>=60:
+    print("d")
+elif score>=35:
+    print("fair")
 else:
-    print("x is equal to 0")
+    print("fail")
