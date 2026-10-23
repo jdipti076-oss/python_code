@@ -36,12 +36,12 @@
 #     print("odd number")
 
 
-def main():
-    num=int(input("enter your num:"))
-    if even(num):
-        print("even number")
-    else:
-        print("odd number");
+# def main():
+#     num=int(input("enter your num:"))
+#     if even(num):
+#         print("even number")
+#     else:
+#         print("odd number");
 
 
 
@@ -64,9 +64,9 @@ def main():
 
 #3 methon
 
-def even(n):
-    return n%2==0;
+# def even(n):
+#     return n%2==0;
 
-main();
+# main()
 
 

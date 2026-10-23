@@ -133,12 +133,28 @@ print("first name is",first)'''
 # - Otherwise, print "Not divisible by 3 or 5".
 # Requirement: Use %, and, and if/elif/else.
 
-num=int(input("enter no :"))
-if num%3==0 and num%5==0:
-    print("fizzbuzz")
-elif num%3==0:
-    print("fizz")
+# num=int(input("enter no :"))
+# if num%3==0 and num%5==0:
+#     print("fizzbuzz")
+# elif num%3==0:
+#     print("fizz")
+# elif num%5==0:
+#     print("buzz")
+# else:
+#     print("not divisible by 3 or 5 ")
+
+# Write a Python program that takes an integer as input and follows these rules:
+# 1. If the number is divisible by both 2 and 5, print "Divisible by both".
+# 2. If it is divisible only by 2, print "Divisible by 2".
+# 3. If it is divisible only by 5, print "Divisible by 5".
+# 4. Otherwise, print "Not divisible by 2 or 5".
+
+num=int(input("enter your number"))
+if num%2==0 and num%5==0:
+    print("divisible by both")
+elif num%2==0:
+    print("divisible by 2")
 elif num%5==0:
-    print("buzz")
-else:
-    print("not divisible by 3 or 5 ")
+    print("divisible by 5")
+else :
+    print("not divisible by 2 and 5")
