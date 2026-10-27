@@ -5,8 +5,8 @@ import json
 if len(sys.argv)!=2:
     sys.exit();
 
-response=requests.get("https://itunes.apple.com/search?entity=song&limit=50&term="+sys.argv[1])
+response=requests.get("https://itunes.apple.com/search?entity=song&limit=1&term="+sys.argv[1])
 o=response.json()
 print(o)
-# for result in o["results"]:
-#     print(result["trackName"])
+for result in o["results"]:
+    print(result["trackName"])
