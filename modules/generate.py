@@ -30,5 +30,9 @@
 # print(statistics.mean([100,90]))
 
 import sys
+if len(sys.argv)<2:
+    sys.exit("too few arguments")
 
-print("hello"," whats your name? : ",sys.argv[1])
+
+for arg in sys.argv[1:]:
+    print("hello"," whats your name? : ",arg)
